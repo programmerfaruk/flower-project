@@ -222,3 +222,14 @@ width: 250px;
   font-size: 18px;
   border-radius: 5px;
 }
+
+.img-description{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+margin-top: 20px;
+text-decoration-line: underline;
+}
