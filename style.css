@@ -59,3 +59,18 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 }
+
+/* cards section start */
+.cards{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.card{
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
