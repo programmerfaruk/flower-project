@@ -6,9 +6,9 @@ font-family: 'Lato', sans-serif;
 .header{
   display: flex;
   align-items: center;
-  gap: ;
   justify-content: space-between;
-  background-color: rgba(229, 84, 115, 0.10);
+  background-color: rgba(229, 84, 115, 0.20);
+  padding-left:100px ;
   
 }
 
@@ -35,7 +35,7 @@ font-weight: 400;
 line-height: 30px;
 }
 .btn-primary{
-  padding: 20px 43px;
+  padding: 19px 30px;
   gap: 10px;
   background-color:#E55473 ;
   border: 0;
