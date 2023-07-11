@@ -57,15 +57,22 @@ line-height: 30px;
 /* features description starts here  */
 
 .info{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -80px;
+  margin-bottom: -50px;
   padding: 200px;
   text-align: center;
 }
-.sub-heading{
-  font-size: 30px;
-  margin: 0;
-}
+
+.info-title{
+  color: #272727;
+  font-family: Lato;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 0;
+  }
+
 .info-para{
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
@@ -74,15 +81,7 @@ font-style: normal;
 font-weight: 400;
 margin: 0;
 }
-.info-title{
-color: #272727;
-font-family: Lato;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-margin-bottom: 0;
-margin-top: 0;
-}
+
 
 /* features description ends here  */
 
@@ -105,6 +104,7 @@ margin-top: 0;
   background: rgba(167, 33, 98, 0.15);
   align-items: bottom center;
   margin: 0;
+  margin-top: -20px;
 
 }
 .card-img{
@@ -133,18 +133,23 @@ text-decoration-line: underline;
 
 
 /* hot deal section starts here  */
-
-.hot-text{
-  text-align: center;
-  padding: 200px;
-  align-items: center;
-}
 .hot-deal-section{
   display: flex;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   width: 80%;
-  margin: 0;
+  margin: 80px auto;
+  
+}
+.hot-text{
+  text-align: center;
+  padding: 200px;
+  align-items: center;
+  padding-left: -30px;
+}
+ 
+.sign-up{
+  margin-top: 20px;
 }
 .hot-img{
   padding-top: 80px;
