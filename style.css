@@ -21,7 +21,7 @@ height: 800px;
 width: 650px;
 color: #272727;
 font-family: Lato;
-font-size: 80px;
+font-size: 60px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -44,7 +44,10 @@ line-height: 30px;
   font-size: large;
   font-weight: 700;
 }
+
 /* main section started */
+
+
 .info{
   padding: 200px;
   text-align: center;
@@ -59,18 +62,41 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 }
+.info-title{
+  color: #272727;
+font-family: Lato;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
 
 /* cards section start */
 .cards{
   display: flex;
+  gap: 50px;
   justify-content: space-around;
   width: 80%;
   align-items: center;
   margin: auto;
 }
 .card{
+  position: relative;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  align-items: bottom center;
+
+}
+.card-img{
+  width: 310px;
+  height: 428px;
+}
+.card-2{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.card-3{
+ background: rgba(71, 125, 17, 0.15);
 }
