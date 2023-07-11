@@ -49,6 +49,8 @@ line-height: 30px;
 
 
 .info{
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 200px;
   text-align: center;
 }
@@ -63,12 +65,13 @@ font-style: normal;
 font-weight: 400;
 }
 .info-title{
-  color: #272727;
+color: #272727;
 font-family: Lato;
-font-size: 50px;
+font-size: 45px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
+margin-bottom: 0;
+margin-top: 0;
 }
 
 
@@ -79,12 +82,13 @@ line-height: normal;
   justify-content: space-around;
   width: 80%;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
+  position: relative
 }
 .card{
-  position: relative;
-  width: 400px;
-  height: 520px;
+  
+  width: 380px;
+  height: 500px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   align-items: bottom center;
@@ -93,6 +97,7 @@ line-height: normal;
 .card-img{
   width: 310px;
   height: 428px;
+  margin-top: 55px;
 }
 .card-2{
   background-color: rgba(5, 151, 160, 0.15);
