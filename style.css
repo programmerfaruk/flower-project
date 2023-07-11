@@ -1,19 +1,20 @@
+
 body{
 font-family: 'Lato', sans-serif;
+
 }
 .header{
   display: flex;
   align-items: center;
+  gap: ;
   justify-content: space-between;
-  gap: 50px;
   background-color: rgba(229, 84, 115, 0.10);
-  padding: 50px;
+  
 }
 
 .header-img{
 width: 635px;
 height: 800px;
-flex-shrink: 0;
 }
 
 .header-title{
@@ -26,11 +27,35 @@ font-weight: 800;
 line-height: normal;
 }
 .header-description{
-  width: 600px;
+width: 600px;
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-
+}
+.btn-primary{
+  padding: 20px 43px;
+  gap: 10px;
+  background-color:#E55473 ;
+  border: 0;
+  border-radius: 5px;
+  color:white;
+  font-size: large;
+  font-weight: 700;
+}
+/* main section started */
+.info{
+  padding: 200px;
+  text-align: center;
+}
+.sub-heading{
+  font-size: 30px;
+}
+.info-para{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
 }
