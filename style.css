@@ -54,6 +54,8 @@ line-height: 30px;
 /* main section started */
 
 
+/* features description starts here  */
+
 .info{
   margin-top: 0;
   margin-bottom: 0;
@@ -82,8 +84,10 @@ margin-bottom: 0;
 margin-top: 0;
 }
 
+/* features description ends here  */
 
-/* cards section start */
+
+/* cards section start here*/
 .cards{
   display: flex;
   gap: 60px;
@@ -114,6 +118,129 @@ margin-top: 0;
 .card-3{
  background: rgba(71, 125, 17, 0.15);
 }
+.img-description{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+margin-top: 25px;
+text-decoration-line: underline;
+}
+/* card section ends here  */
+
+
+
+/* hot deal section starts here  */
+
+.hot-text{
+  text-align: center;
+  padding: 200px;
+  align-items: center;
+}
+.hot-deal-section{
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  width: 80%;
+  margin: 0;
+}
+.hot-img{
+  padding-top: 80px;
+  width: 318px;
+  height: 420px;
+  margin: 0;
+}
+
+/* hot deal section ends here  */
+
+
+
+/* instagram section starts here  */
+
+.insta-section{
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+.insta-title{
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+}
+.insta-para{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: #272727;
+}
+
+
+/* instagram section ends here  */
+
+
+
+/* four feature images start here  */
+
+.four-img{
+  display: flex;
+  width: 80%;
+  gap: 25px;
+  align-items: center;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.group-img{
+width: 250px;
+
+}
+
+/* four features images ends here  */
+
+
+
+/* newslater section starts here  */
+
+.newsletter-section{
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 80px;
+  background-image:url(newslater/newslater.png);
+  background-size: cover;
+}
+
+#email-field{
+  width: 700px;
+  height: 45px;
+  padding: 15px;
+  color: #E55473;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+
+.newsletter-section form [type=submit] {
+  background-color: #E55473;
+  padding: 12px 28px;
+  margin: 14px 0px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* newsletter section end  */
+
+
+
+
+
+/* footer section starts here  */
 .footer{
   background-color: black;
   color: white;
@@ -146,91 +273,5 @@ padding-top: 0;
 .ft-last-para{
   font-size: 10px;
 }
-.hot-text{
-  text-align: center;
-  padding: 200px;
-  align-items: center;
-}
-.hot-deal-section{
-  display: flex;
-  border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
-  width: 80%;
-  margin: 0;
-}
-.hot-img{
-  padding-top: 80px;
-  width: 318px;
-  height: 420px;
-  margin: 0;
-}
-.insta-section{
-  text-align: center;
-  margin: 0;
-  align-items: center;
-}
-.insta-title{
-  font-size: 30px;
-  font-weight: 900;
-  margin: 0;
-}
-.insta-para{
-  width: 40%;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-  color: #272727;
-}
-.four-img{
-  display: flex;
-  width: 80%;
-  gap: 25px;
-  align-items: center;
-  margin: 20px auto;
-  padding: 30px;
-}
 
-.group-img{
-width: 250px;
-
-}
-.newsletter-section{
-  width: 80%;
-  margin: 30px auto;
-  text-align: center;
-  padding: 80px;
-  background-image:url(newslater/newslater.png);
-  background-size: cover;
-}
-
-#email-field{
-  width: 700px;
-  height: 45px;
-  padding: 15px;
-  color: #E55473;
-  font-size: 20px;
-  font-weight: 800;
-  border: none;
-}
-
-.newsletter-section form [type=submit] {
-  background-color: #E55473;
-  padding: 12px 28px;
-  margin: 14px 0px;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 5px;
-}
-
-.img-description{
-  color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-margin-top: 25px;
-text-decoration-line: underline;
-}
+/* footer section ends  */
