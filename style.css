@@ -1,7 +1,36 @@
+body{
+font-family: 'Lato', sans-serif;
+}
 .header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
   background-color: rgba(229, 84, 115, 0.10);
   padding: 50px;
+}
+
+.header-img{
+width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
+
+.header-title{
+width: 650px;
+color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.header-description{
+  width: 600px;
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
 }
