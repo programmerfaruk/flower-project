@@ -137,3 +137,20 @@ padding-top: 0;
 .ft-last-para{
   font-size: 10px;
 }
+.hot-text{
+  text-align: center;
+  padding: 200px;
+  align-items: center;
+}
+.hot-deal-section{
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 20px;
+  margin: 0;
+}
+.hot-img{
+  padding-top: 80px;
+  width: 318px;
+height: 420px;
+}
